@@ -18,8 +18,8 @@ const hmpoComponents = require('hmpo-template-components');
 let views = [
     path.resolve(__dirname, 'views'),
     path.resolve(__dirname, 'node_modules', 'hmpo-components', 'components'),
-    path.resolve(__dirname, 'node_modules', 'govuk-frontend'),
-    path.resolve(__dirname, 'node_modules', 'govuk-frontend', 'components')
+    path.resolve(__dirname, 'node_modules', 'govuk-frontend', 'dist'),
+    path.resolve(__dirname, 'node_modules', 'govuk-frontend', 'dist', 'components')
 ];
 
 let nunjucksEnv = nunjucks.configure(views, { express: app });
