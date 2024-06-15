@@ -1,6 +1,6 @@
 {
   "name": "form-wizard-components",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "description": "Component wrappers for wizard fields",
   "main": "index.js",
   "scripts": {
